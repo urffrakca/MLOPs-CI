@@ -26,7 +26,7 @@ jobs:
 
     -name: Install dependencies
       run: | 
-        pyton -m pip install --upgrade pip
+        python -m pip install --upgrade pip
         pip install pytest streamlit
 
     -name: Run tests
